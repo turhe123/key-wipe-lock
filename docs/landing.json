@@ -1,0 +1,60 @@
+{
+  "seo_title": "Keyboard cleaning lock for macOS",
+  "seo_description": "KeyWipeLock is a free, open-source menu bar app that locks your Mac keyboard and trackpad for a countdown, so you can wipe them clean without typing nonsense.",
+  "hero_title_line1": "Clean your keyboard.",
+  "hero_title_accent": "Type nothing by accident.",
+  "hero_sub": "KeyWipeLock blocks your keyboard and, optionally, your trackpad for a countdown while you wipe them down. Start a lock from the menu bar; hold Escape for 3 seconds to exit early.",
+  "features_title": "Everything you need, nothing else.",
+  "features_sub": "A small native menu bar app that does one job and releases your keyboard the moment it is done.",
+  "features": [
+    {
+      "icon": "keyboard",
+      "title": "Blocks every key",
+      "desc": "Swallows key presses, modifier keys and media keys through a session-level event tap. Touch ID and the power button cannot be blocked, and the app tells you so."
+    },
+    {
+      "icon": "cursor",
+      "title": "Optional trackpad and mouse lock",
+      "desc": "Turn on pointer blocking to also ignore clicks, drags, scrolling and trackpad gestures. Toggle it from the menu or in Settings."
+    },
+    {
+      "icon": "clock",
+      "title": "Presets or a custom duration",
+      "desc": "Choose 30 seconds, 1, 2 or 5 minutes, or set anything from 10 seconds to 30 minutes. Starting another lock while one is running adds time."
+    },
+    {
+      "icon": "display",
+      "title": "Countdown on every display",
+      "desc": "A dimmed full-screen overlay with a countdown ring appears on each screen. It is rebuilt after display changes or sleep, keeping the same end time."
+    },
+    {
+      "icon": "shield",
+      "title": "Always a way out",
+      "desc": "Hold Escape for 3 seconds, wait for the timer, or quit the app. The block lives in the app process, so the keyboard cannot stay locked."
+    },
+    {
+      "icon": "sliders",
+      "title": "Simple settings",
+      "desc": "Set the default duration, pointer blocking, a soft end-of-lock chime and start at login. A first-run sheet walks you through granting access."
+    }
+  ],
+  "permissions_step": "When prompted, grant Accessibility access to KeyWipeLock in System Settings > Privacy & Security > Accessibility.",
+  "faq": [
+    {
+      "q": "Is KeyWipeLock really free and open source?",
+      "a": "Yes. It is released under the MIT license and the full source is on GitHub. There are no accounts, no ads, no analytics and no third-party dependencies, only Apple frameworks."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Accessibility access is required, because macOS only lets trusted apps intercept keyboard and pointer events. Notifications are requested only if macOS disables the blocker mid-lock, and the login item is used only if you enable start at login. It does not ask for Screen Recording or Microphone access, and it does not read what you type."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Nothing leaves your Mac. The app makes no network calls, and your few preferences, such as default duration and chime, are stored locally in the app's standard macOS settings."
+    },
+    {
+      "q": "Why is the app not notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to get past Gatekeeper, or build it yourself from source with Xcode."
+    }
+  ]
+}

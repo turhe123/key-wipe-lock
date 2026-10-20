@@ -1,0 +1,4 @@
+[
+  {"file":"01-menu-panel.png","caption":"The menu bar panel with one-click lock presets (30 s to 5 min), a custom duration stepper, the trackpad and mouse blocking toggle, and a prompt to grant Accessibility access on first run.","alt":"KeyWipeLock menu bar panel with lock duration presets"},
+  {"file":"02-settings.png","caption":"Settings for the default lock duration, trackpad and mouse blocking, an unlock chime and start at login, plus Accessibility status and the hold-Escape emergency exit reminder.","alt":"KeyWipeLock Settings window"}
+]

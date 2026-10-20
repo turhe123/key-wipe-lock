@@ -1,5 +1,7 @@
 # KeyWipeLock
 
+**🌐 Website:** [turhe123.github.io/key-wipe-lock](https://turhe123.github.io/key-wipe-lock/)
+
 Lock your keyboard and trackpad for a countdown so you can wipe them clean without typing nonsense.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -27,7 +29,13 @@ KeyWipeLock is a free, open-source, 100% native, backend-free alternative to pai
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu-panel.png" alt="KeyWipeLock menu bar panel with lock duration presets" width="720"></p>
+
+<p align="center"><em>The menu bar panel with one-click lock presets (30 s to 5 min), a custom duration stepper, the trackpad and mouse blocking toggle, and a prompt to grant Accessibility access on first run.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="KeyWipeLock Settings window" width="560"></p>
+
+<p align="center"><em>Settings for the default lock duration, trackpad and mouse blocking, an unlock chime and start at login, plus Accessibility status and the hold-Escape emergency exit reminder.</em></p>
 
 ## Install
 
